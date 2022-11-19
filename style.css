@@ -5,3 +5,10 @@
     text-decoration: none;
     list-style: none;
 }
+
+/* layout */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
