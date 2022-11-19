@@ -47,7 +47,10 @@ nav {
 
 .banner {
     grid-column: span 4;
-    background-color: aquamarine;
+    display: grid;
+    grid-auto-rows: minmax(20vh, 30vh);
+    background: aquamarine no-repeat center url("images/banner-big.jpg");
+    background-size: cover;
 }
 main {
     grid-column: span 4;
