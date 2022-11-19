@@ -9,6 +9,26 @@
 /* layout */
 
 .container {
+    max-width: 1024px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(5vh, auto);
+    background-color: cyan;
+}
+
+header {
+    background-color: gold;
+    grid-column: span 4;
+}
+nav {
+    grid-column: span 4;
+    background-color: blueviolet;
+}
+.banner {
+    grid-column: span 4;
+    background-color: aquamarine;
+}
+main {
+    grid-column: span 4;
 }
