@@ -48,9 +48,15 @@ nav {
 .banner {
     grid-column: span 4;
     display: grid;
-    grid-auto-rows: minmax(20vh, 30vh);
+    justify-content: center;
+    align-items: center;
+    grid-auto-rows: minmax(15vh, 20vh);
     background: aquamarine no-repeat center url("images/banner-big.jpg");
     background-size: cover;
+}
+
+h1 {
+    font-size: 10vh;
 }
 main {
     grid-column: span 4;
