@@ -76,3 +76,13 @@ h1 {
 main {
     grid-column: span 4;
 }
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.discount img,
+.discover img {
+    width: 100%;
+}
