@@ -9,17 +9,18 @@
 /* layout */
 
 body {
-    max-width: 1024px;
+    max-width: 1440px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 1em;
     grid-template-rows: minmax(5vh, auto);
     background-color: cyan;
 }
 
 header {
     background-color: gold;
-    grid-column: span 4;
+    grid-column: span 8;
 
     display: grid;
     grid-template-columns: 1fr auto auto;
@@ -32,7 +33,7 @@ header .contact {
     margin-left: 1em;
 }
 nav {
-    grid-column: span 4;
+    /* grid-column: span 4; */
     background-color: blueviolet;
 
     display: grid;
@@ -46,7 +47,7 @@ nav {
 }
 
 .banner {
-    grid-column: span 4;
+    /* grid-column: span 4; */
     display: grid;
     justify-content: center;
     align-items: center;
@@ -74,7 +75,7 @@ h1 {
     padding:8px
 }
 main {
-    grid-column: span 4;
+    /* grid-column: span 4; */
 }
 
 .main-content {
@@ -85,4 +86,18 @@ main {
 .discount img,
 .discover img {
     width: 100%;
+}
+
+footer{
+    background-color: blue;
+    /* grid-column: span 4; */
+
+}
+
+.item:nth-child(odd) {
+    background-color:#eee;
+}
+
+.item54 {
+    grid-column: span 10;
 }
