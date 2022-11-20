@@ -94,7 +94,17 @@ main {
 .main-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1em;
+}
 
+.main-content .content {
+    background-color: aquamarine;
+    position: relative;
+    bottom: -50%;
+
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
 }
 .discount img,
 .discover img {
