@@ -78,7 +78,7 @@ h1 {
 .form-search {
     display: grid;
     grid-template-columns: 1fr 3em;
-    /* background-color: #121212; */
+    background-color: #121212;
     opacity: 0.7;
     border-radius: 12px;
     padding: 1em;
