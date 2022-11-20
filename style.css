@@ -65,7 +65,7 @@ nav {
     justify-content: center;
     align-items: center;
     grid-auto-rows: minmax(15vh, 20vh);
-    background: aquamarine no-repeat center url("images/banner-big.jpg");
+    background: aquamarine no-repeat center url("images/banner-original.jpg");
     background-size: cover;
 }
 
