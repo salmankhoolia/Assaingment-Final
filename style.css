@@ -14,7 +14,6 @@
 /* layout */
 
 body {
-    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: minmax(5vh, auto);
@@ -88,29 +87,9 @@ h1 {
 .input-search {
     padding:8px
 }
+
 main {
     grid-column: span 4;
-}
-
-.main-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-template-rows: 1fr auto auto;
-    grid-column-gap: 1em;
-}
-
-
-.main-content .content {
-    /* background-color: aquamarine; */
-    position: relative;
-    bottom: -50%;
-    max-width: 50%;
-    margin: 0 auto;
-    text-align: center;
-}
-.discount img,
-.discover img {
-    width: 100%;
 }
 
 .action {
@@ -130,6 +109,36 @@ main {
 .action p {
     margin-bottom: 1em;
 }
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* grid-template-rows: 1fr auto auto; */
+    /* grid-column-gap: 1em; */
+}
+
+
+.main-content .content {
+    /* background-color: aquamarine; */
+    position: relative;
+    bottom: -50%;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.discount,
+.discover  {
+    padding: 0px 10px;
+}
+
+
+.discount img,
+.discover img {
+    width: 100%;
+}
+
 
 .btn-like {
     color: var(--color-black);
