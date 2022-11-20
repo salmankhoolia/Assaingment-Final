@@ -4,10 +4,12 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 :root {
-    --font-color-light: aliceblue;
+    --color-light: aliceblue;
+    --color-black: #070606;
 }
 /* layout */
 
@@ -15,14 +17,14 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: minmax(5vh, auto);
     background-color: cyan;
 }
 
 header {
     background-color: #121212;
-    grid-column: span 3;
+    grid-column: span 4;
     /* min-height: 10vh; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -45,7 +47,7 @@ nav {
     grid-template-columns: repeat(6, 1fr);
     align-items: center;
     /* grid-auto-rows: minmax(3vh, 5vh); */
-    color: var(--font-color-light);
+    color: var(--color-light);
 }
 .nav-item {
     justify-self: center;
@@ -53,14 +55,14 @@ nav {
 }
 
 .nav-item a {
-    color: var(--font-color-light);
+    color: var(--color-light);
 }
 .nav-item img {
     max-height: 100%;
 }
 
 .banner {
-    grid-column: span 3;
+    grid-column: span 4;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -88,20 +90,21 @@ h1 {
     padding:8px
 }
 main {
-    grid-column: span 3;
+    grid-column: span 4;
 }
 
 .main-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: 1em;
+    grid-template-rows: 1fr auto auto;
+    grid-column-gap: 1em;
 }
+
 
 .main-content .content {
     background-color: aquamarine;
     position: relative;
     bottom: -50%;
-
     max-width: 50%;
     margin: 0 auto;
     text-align: center;
@@ -109,4 +112,35 @@ main {
 .discount img,
 .discover img {
     width: 100%;
+}
+
+.action {
+    grid-column: 1/-1;
+    /* grid-row: span 2; */
+    min-height:20vh;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.header-all-products {
+    margin: 5px;
+    font-size: 4vh
+}
+
+.action p {
+    margin-bottom: 1em;
+}
+
+.btn-like {
+    color: var(--color-black);
+    background: none;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 140px;
+    border: 2px solid var(--color-black);
+    margin: 10px 10px 0 0;
+    padding:10px;
 }
