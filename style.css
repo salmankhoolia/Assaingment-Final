@@ -144,3 +144,20 @@ main {
     margin: 10px 10px 0 0;
     padding:10px;
 }
+
+.all-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5em;
+    margin-top: 1em;
+}
+
+.all-products .item {
+    margin-bottom: 1em;
+    border: 1px solid #070606;
+}
+
+.all-products img {
+    max-width: 100%;
+    width: 100%;
+}
