@@ -14,6 +14,8 @@
 /* layout */
 
 body {
+    /* margin: 0 auto;
+    max-width: 90%; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: minmax(5vh, auto);
@@ -21,6 +23,9 @@ body {
 }
 
 header {
+    /* position: fixed;
+    left:0;
+    right:0; */
     background-color: #121212;
     grid-column: span 4;
     /* min-height: 10vh; */
@@ -91,6 +96,14 @@ h1 {
 main {
     grid-column: span 4;
 }
+
+.body-products {
+    text-align: center;
+}
+/* .body-products main {
+    max-width: 90%;
+    margin: 0 auto;
+} */
 
 .action {
     margin-top: 1.5em;
@@ -169,4 +182,9 @@ main {
 .all-products img {
     max-width: 100%;
     width: 100%;
+}
+
+/* producvts page */
+.item-description {
+    text-align: center;
 }
