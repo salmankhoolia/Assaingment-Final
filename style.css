@@ -14,8 +14,10 @@
 /* layout */
 
 body {
-    /* margin: 0 auto;
-    max-width: 90%; */
+    margin: 0 auto;
+    max-width: 95%;
+    /* overflow-x: hidden; */
+    /* background-color: aquamarine; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: minmax(5vh, auto);
@@ -76,6 +78,10 @@ nav {
 
 h1 {
     font-size: 10vh;
+}
+
+.body-products h1 {
+    text-align: left;
 }
 
 .form-search {
