@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: minmax(5vh, auto);
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 
 header {
@@ -67,7 +67,7 @@ nav {
     justify-content: center;
     align-items: center;
     grid-auto-rows: minmax(15vh, 20vh);
-    background: aquamarine no-repeat center url("images/banner-original.jpg");
+    background: no-repeat center url("images/banner-original.jpg");
     background-size: cover;
 }
 
@@ -78,7 +78,7 @@ h1 {
 .form-search {
     display: grid;
     grid-template-columns: 1fr 3em;
-    background-color: #121212;
+    /* background-color: #121212; */
     opacity: 0.7;
     border-radius: 12px;
     padding: 1em;
@@ -102,7 +102,7 @@ main {
 
 
 .main-content .content {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     position: relative;
     bottom: -50%;
     max-width: 50%;
@@ -115,10 +115,11 @@ main {
 }
 
 .action {
+    margin-top: 1.5em;
     grid-column: 1/-1;
     /* grid-row: span 2; */
     min-height:20vh;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     text-align: center;
 }
 
