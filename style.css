@@ -6,6 +6,9 @@
     list-style: none;
 }
 
+:root {
+    --font-color-light: aliceblue;
+}
 /* layout */
 
 body {
@@ -35,21 +38,26 @@ header {
 }
 nav {
     /* grid-column: span 2; */
-     background-color: blueviolet;
+     /* background-color: blueviolet; */
 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     align-items: center;
     /* grid-auto-rows: minmax(3vh, 5vh); */
-
+    color: var(--font-color-light);
 }
 .nav-item {
     justify-self: center;
     align-self:center;
 }
+
+.nav-item a {
+    color: var(--font-color-light);
+}
 .nav-item img {
     max-height: 100%;
 }
+
 .banner {
     grid-column: span 3;
     display: grid;
