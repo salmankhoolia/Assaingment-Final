@@ -1,7 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600&family=Rubik+Mono+One&display=swap');
+
 h1 {
     font-size: 10vh;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
 }
 
 .body-products h1 {
     text-align: left;
+}
+
+.header-all-products {
+    font-size: 6vh;
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    letter-spacing: -1px;
+    transition: 0.5s;
+}
+
+.nav-item:hover {
+    transform: scale(1.05);
+}
+
+
+.action p {
+    font-weight: bold;
+}
+
+.new-release {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.content h2 {
+    font-size: 40px;
+    text-shadow: 4px 4px 2px lightblue;
+    font-family: 'Oswald', sans-serif;
 }
