@@ -9,14 +9,19 @@
     color: var(--color-black);
     background: none;
     font-family: 'Anton', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     max-height: 60px;
     width: 10rem;
     border: 2px solid var(--color-black);
-    margin: 10px 10px 0 0;
-    padding:10px;
+    padding: 10px;
+    transition: 0.7s;
+}
+
+.btn-like:hover {
+    transform: scale(1.05);
+    background-color: red;
+    color: white;
 }
 
 
@@ -37,4 +42,18 @@
 .order-btn {
     grid-column: 1/-1;
     justify-self: right;
+}
+
+.main-content a {
+    color: var(--color-black);
+    background: white;
+    border: 2px solid black;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    max-height: 60px;
+    width: 10rem;
+    margin: 10px 10px 0 0;
+    padding:10px;
 }

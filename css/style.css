@@ -17,15 +17,10 @@ nav {
     background-size: cover;
 }
 
-h1 {
-    font-size: 10vh;
+.logo {
+    filter: saturate(20);
+    transition: 0.9s;
 }
-
-.body-products h1 {
-    text-align: left;
-}
-
-
 
 .body-products {
     text-align: center;
@@ -38,7 +33,6 @@ h1 {
 
 .header-all-products {
     margin: 5px;
-    font-size: 4vh
 }
 
 .action p {
@@ -50,8 +44,7 @@ h1 {
 }
 
 .all-products .item {
-    margin-bottom: 1em;
-    border: 1px solid var(--color-black);
+    margin-top: 5em;
 }
 
 /* products page */
@@ -71,4 +64,21 @@ h1 {
 .body-single-product h1 {
     text-align: center;
     font-size: 5vh;
+}
+
+.form-grid-container:hover {
+    transform: scale(1.05);
+}
+
+.all-products img {
+    width: 300px;
+    height: auto;
+    transition: 0.9s;
+}
+
+.all-products img:hover {
+    background-color: lightblue;
+    transform: scale(1.1);
+    opacity: 0.8;
+    border-radius: 10%;
 }
