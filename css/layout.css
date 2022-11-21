@@ -6,7 +6,7 @@
             --- nav (grid nested)
         -- section.banner (grid)
         --main
-            --- action
+            --- action (grid)
             --- main-content (grid)
             --- all-products (grid)
 */
@@ -17,6 +17,7 @@ body {
     /* background-color: cyan; */
 }
 
+/* #header */
 header {
     /* position: fixed;
     left:0;
@@ -36,6 +37,7 @@ header {
     max-height: 100%;
 }
 
+/* #nav */
 nav {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -52,6 +54,7 @@ nav {
     max-height: 100%;
 }
 
+/* #banner */
 .banner {
     display: grid;
     justify-content: center;
@@ -65,6 +68,38 @@ nav {
 }
 
 
+/* #Main */
+
+/* #action */
+.action {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+}
+.action h2 {
+    grid-column: 2/4;
+}
+.action p {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.action .btn-men {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: end;
+}
+
+.action .btn-women {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    justify-self: start;
+}
+
+
+
+/* #main-content */
 .main-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
