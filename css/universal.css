@@ -22,6 +22,13 @@
     display: none;
 }
 
+.hidden-text {
+    display:block;
+    text-indent: -99999em;
+    height: 0;
+    width: 0;
+}
+
 .bg-gray {
     background-color: var(--color-gray);
 }

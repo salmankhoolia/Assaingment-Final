@@ -6,94 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="RainyDays provides a different and more convenient shopping experience.">
     <title>RainyDays | Keeps you dry in rainy days</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-        <header>
-            <div class="item logo">
-                <a href="index.html">
-                    <img alt="Logo Rainy Days" src="images/logo-rainydays.png">
+    <header>
+        <div class="item logo">
+            <a href="index.html" aria-label="logo" title="Rainydays logo">
+                <img alt="Rainydays logo" src="images/logo-rainydays.png">
+                <span class="hidden-text">Rainydays logo</span>
+            </a>
+        </div>
+        <nav>
+            <div class="nav-item nav-men">
+                <a href="products.html">Men</a>
+            </div>
+            <div class="nav-item nav-women">
+                <a href="#">Women</a>
+            </div>
+            <div class="nav-item nav-kids">
+                <a href="#">Kids</a>
+            </div>
+            <div class="nav-item nav-equipment">
+                <a href="#">Tools</a>
+            </div>
+            <div class="nav-item nav-signin">
+                <a href="signin.html">Sign in</a>
+            </div>
+            <div class="nav-item nav-contact">
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <h1>Rainy days</h1>
+        <form class="form-search">
+            <div class="form-grid-container">
+                <input type="text" class="input-search" placeholder="Search for Product..." aria-label="Search">
+                <button type="submit" class="btn-submit btn-search"><i class="fa-solid fa-magnifying-glass"></i><span
+                        class="hidden">Search</span> </button>
+            </div>
+        </form>
+    </section>
+    <main>
+        <div class="action">
+            <h2 class="header-all-products">Verstile products</h2>
+            <p>Our new collection has arrived!</p>
+            <a href="products.html" class="btn-like btn-men">Men</a>
+            <a href="products.html" class="btn-like btn-women">Women</a>
+        </div>
+        <section class="main-content">
+            <div class="discount">
+                <div class="content">
+                    <h2>Discount for holiday</h2>
+                    <a href="discount.html">Read more</a>
+                </div>
+                <div class="discount-img">
+                    <img src="./images/discount.jpg" alt="Discounts for holiday">
+                </div>
+            </div>
+            <div class="discover">
+                <div class="content">
+                    <h2>Discover</h2>
+                    <a href="discover.html">About us</a>
+                </div>
+                <div class="discover-img">
+                    <img src="./images/discovery.jpg" alt="About us">
+                </div>
+            </div>
+        </section>
+
+        <section class="all-products">
+            <div class="item item-product">
+                <a href="product-jacket.html" aria-label="Gray jacket">
+                    <img src="./images/jacket-gray.png" alt="Jacket with gray color">
+                    <span class="hidden-text">Gray jacket</span>
                 </a>
             </div>
-            <nav>
-                <div class="nav-item nav-men">
-                <a href="products.html">Men</a>
-                </div>
-                <div class="nav-item nav-women">
-                  <a href="#">Women</a>
-                </div>
-                <div class="nav-item nav-kids">
-                 <a href="#">Kids</a>
-                </div>
-                <div class="nav-item nav-equipment">
-                 <a href="#">Tools</a>
-                </div>
-                <div class="nav-item nav-signin">
-                    <a href="signin.html">Sign in</a>
-                </div>
-                <div class="nav-item nav-contact">
-                    <a href="contact.html">Contact</a>
-                </div>
-            </nav>
-        </header>
-        <section class="banner">
-            <h1>Rainy days</h1>
-            <form class="form-search">
-                <div class="form-grid-container">
-                    <input type="text" class="input-search" placeholder="Search for Product...">
-                    <button type="submit" class="btn-submit btn-search"><i class="fa-solid fa-magnifying-glass"></i><span class="hidden">Search</span> </button>
-                </div>
-            </form>
-        </section>
-        <main>
-            <div class="action">
-                <h2 class="header-all-products">Verstile products</h2>
-                <p>Our new collection has arrived!</p>
-                <a href="products.html" class="btn-like btn-men">Men</a>
-                <a href="products.html" class="btn-like btn-women">Women</a>
+            <div class="item item-product">
+                <a href="product-jacket.html" aria-label="Green jacket">
+                    <img src="./images/jacket-oliven.png" alt="Green jacket" title="Green jacket">
+                    <span class="hidden-text">Green jacket</span>
+                </a>
             </div>
-            <section class="main-content">
-                <div class="discount">
-                    <div class="content">
-                        <h2>Discount for holiday</h2>
-                        <a href="discount.html">Read more</a>
-                    </div>
-                    <div class="discount-img">
-                        <img src="./images/discount.jpg" alt="Discounts for holiday">
-                    </div>
-                </div>
-                <div class="discover">
-                    <div class="content">
-                        <h2>Discover</h2>
-                        <a href="discover.html">About us</a>
-                    </div>
-                    <div class="discover-img">
-                        <img src="./images/discovery.jpg" alt="About us">
-                    </div>
-                </div>
-            </section>
-
-            <section class="all-products">
-                <div class="item item-product">
-                    <a href="producct-jacket.html">
-                        <img src="./images/jacket-gray.png" alt="Jacket with gray color">
-                    </a>
-                </div>
-                <div class="item item-product">
-                    <a href="producct-jacket.html">
-                        <img src="./images/jacket-oliven.png" alt="Green jacket">
-                    </a>
-                </div>
-                <div class="item item-product">
-                    <a href="producct-jacket.html">
-                        <img src="./images/jacket-orange-grey.png" alt="Jakcet with orange and gray color">
-                    </a>
-                </div>
-            </section>
-        </main>
+            <div class="item item-product">
+                <a href="producct-jacket.html">
+                    <img src="./images/jacket-orange-grey.png" alt="Jakcet with orange and gray color">
+                    <span class="hidden-text">Orange and Gray jacket</span>
+                </a>
+            </div>
+        </section>
+    </main>
 
 </body>
 </html>
