@@ -208,3 +208,15 @@ main {
     text-align: center;
     font-size: 5vh;
 }
+
+.form-contact .form-container {
+    display:grid;
+    grid-gap: 1em;
+    padding: 1em;
+    justify-content: center;
+    grid-template-columns: minmax(min-content, 300px);
+}
+
+.form-container .title {
+    justify-self: center;
+}
