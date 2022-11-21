@@ -13,8 +13,12 @@
     --color-light: #f1f6fa;
     --color-black: #070606;
     --color-gray: #e5e5e5;
+    --color-blue:#3182ce;
 }
 
+.hidden {
+    display: none;
+}
 .btn {
     padding: 1em;
     border-radius: 12px;
@@ -23,7 +27,7 @@
 }
 
 .btn-blue {
-    background-color: #3182ce;
+    background-color: var(--color-blue);
     color:aliceblue;
 }
 
@@ -35,12 +39,24 @@
     background-color: var(--color-gray);
 }
 
+
+input,
+textarea {
+    border-color: transparent;
+    background-color: var(--color-light);
+}
+
+.form-grid-container {
+    display:grid;
+    grid-gap: 1em;
+    padding: 1em;
+    justify-content: center;
+}
+
 input,
 textarea {
     padding: 10px;
     border-radius: 20px;
-    border-color: transparent;
-    background-color: var(--color-light);
 }
 
 input::placeholder,
