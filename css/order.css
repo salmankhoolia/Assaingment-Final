@@ -7,7 +7,7 @@
 
 .item-order > div:nth-child(odd) {
     justify-self: right;
-
+}
 
 .item-order > div:first-child {
     justify-self: left;
