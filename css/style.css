@@ -190,7 +190,21 @@ main {
     width: 100%;
 }
 
-/* producvts page */
+/* products page */
 .item-description {
     text-align: center;
+}
+
+/* Single porduct */
+.single-product  {
+    max-width: 50%;
+    margin: 0 auto;
+}
+.single-product img {
+    max-width: 100%;
+}
+
+.body-single-product h1 {
+    text-align: center;
+    font-size: 5vh;
 }
