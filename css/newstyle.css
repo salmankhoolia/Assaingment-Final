@@ -1,0 +1,17 @@
+body {
+    /* margin: 0 auto;
+    max-width: 95%; */
+    background-color: brown;
+}
+
+header {
+    background-color: var(--color-black);
+}
+
+.logo {
+
+}
+
+main {
+    background-color: var(--color-gray);
+}
