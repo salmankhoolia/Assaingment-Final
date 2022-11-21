@@ -96,6 +96,7 @@ nav {
     grid-column: 3/4;
     grid-row: 3/4;
     justify-self: start;
+    margin-left:.5em;
 }
 
 
