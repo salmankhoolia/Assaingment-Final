@@ -1,0 +1,11 @@
+.btn {
+    padding: 1em;
+    border-radius: 12px;
+    border-color: transparent;
+    color:aliceblue;
+    min-width: 8vw;
+}
+
+.btn-blue {
+    background-color: #3182ce;
+}
