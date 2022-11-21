@@ -2,18 +2,12 @@
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
-
     margin: 1em 0;
 }
 
 .item-order > div:nth-child(odd) {
     justify-self: right;
-}
 
-.order-btn {
-    grid-column: 1/-1;
-    justify-self: right;
-}
 
 .item-order > div:first-child {
     justify-self: left;
