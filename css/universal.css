@@ -16,6 +16,8 @@
     --color-blue:#3182ce;
     --color-placeholder: hsl(240, 0%, 49%);
     --auto-grid-min-size: 370px;
+    --header-row-min-size: 5vh;
+    --header-row-max-size: 10vh;
 }
 
 .hidden {
